@@ -20,4 +20,6 @@ from . import views
 urlpatterns = [
     path('', views.index),
     path('redirect',views.redirect,name="redirect"),
+    path('houseDetail',views.houseDetail,name="houseDetail"),
+    
 ]

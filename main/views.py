@@ -6,3 +6,6 @@ def index(request):
 
 def redirect(request):
     return  render(request,'redirectPage.html')
+
+def houseDetail(request):
+    return  render(request,'houseDetail.html')
