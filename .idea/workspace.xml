@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6c8917a-99e7-42b2-bcad-554b8a8fbae4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectId" id="1aL1XzVzY9W6FWcvruCsKL0fvFt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="cohousing" type="Python.DjangoServer" factoryName="Django server">
+      <module name="cohousing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cohousing.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6c8917a-99e7-42b2-bcad-554b8a8fbae4" name="Default Changelist" comment="" />
+      <created>1586500103786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586500103786</updated>
+      <workItem from="1586500106428" duration="1179000" />
+      <workItem from="1586507798981" duration="11494000" />
+      <workItem from="1586570255655" duration="1621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="19" key="#Notifications" timestamp="1586576229054">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="19" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1586576229054" />
+    <state x="454" y="274" key="Github.CreateGistDialog" timestamp="1586576214381">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="454" y="274" key="Github.CreateGistDialog/0.0.1280.720@0.0.1280.720" timestamp="1586576214381" />
+    <state width="1236" height="245" key="GridCell.Tab.0.bottom" timestamp="1586570331556">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="245" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586570331556" />
+    <state width="1236" height="245" key="GridCell.Tab.0.center" timestamp="1586570331556">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="245" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586570331556" />
+    <state width="1236" height="245" key="GridCell.Tab.0.left" timestamp="1586570331555">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="245" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586570331555" />
+    <state width="1236" height="245" key="GridCell.Tab.0.right" timestamp="1586570331556">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="245" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586570331556" />
+    <state width="1222" height="242" key="GridCell.Tab.1.bottom" timestamp="1586535914829">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="242" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586535914829" />
+    <state width="1222" height="242" key="GridCell.Tab.1.center" timestamp="1586535914829">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="242" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1586535914829" />
+    <state width="1222" height="242" key="GridCell.Tab.1.left" timestamp="1586535914828">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="242" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1586535914828" />
+    <state width="1222" height="242" key="GridCell.Tab.1.right" timestamp="1586535914829">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="242" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1586535914829" />
+    <state x="142" y="3" key="SettingsEditor" timestamp="1586527445214">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1586527445214" />
+    <state x="325" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1586570299287">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="325" y="218" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1586570299287" />
+    <state x="0" y="0" width="629" height="720" key="find.popup" timestamp="1586526791375">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" width="629" height="720" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1586526791375" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
