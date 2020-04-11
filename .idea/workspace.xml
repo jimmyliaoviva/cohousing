@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6c8917a-99e7-42b2-bcad-554b8a8fbae4" name="Default Changelist" comment="" />
+    <list default="true" id="b6c8917a-99e7-42b2-bcad-554b8a8fbae4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/master.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/master.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +37,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
     <bower-package value="" />
     <bower.json value="" />
   </component>
   <component name="ProjectId" id="1aL1XzVzY9W6FWcvruCsKL0fvFt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -96,7 +106,8 @@
       <updated>1586500103786</updated>
       <workItem from="1586500106428" duration="1179000" />
       <workItem from="1586507798981" duration="11494000" />
-      <workItem from="1586570255655" duration="1621000" />
+      <workItem from="1586570255655" duration="4421000" />
+      <workItem from="1586596794999" duration="675000" />
     </task>
     <servers />
   </component>
@@ -108,50 +119,50 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="19" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1586576229054" />
-    <state x="454" y="274" key="Github.CreateGistDialog" timestamp="1586576214381">
+    <state x="454" y="274" key="Github.CreateGistDialog" timestamp="1586576634052">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="454" y="274" key="Github.CreateGistDialog/0.0.1280.720@0.0.1280.720" timestamp="1586576214381" />
-    <state width="1236" height="245" key="GridCell.Tab.0.bottom" timestamp="1586570331556">
+    <state x="454" y="274" key="Github.CreateGistDialog/0.0.1280.720@0.0.1280.720" timestamp="1586576634052" />
+    <state width="1236" height="2" key="GridCell.Tab.0.bottom" timestamp="1586596856849">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="245" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586570331556" />
-    <state width="1236" height="245" key="GridCell.Tab.0.center" timestamp="1586570331556">
+    <state width="1236" height="2" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586596856849" />
+    <state width="1236" height="2" key="GridCell.Tab.0.center" timestamp="1586596856849">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="245" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586570331556" />
-    <state width="1236" height="245" key="GridCell.Tab.0.left" timestamp="1586570331555">
+    <state width="1236" height="2" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586596856849" />
+    <state width="1236" height="2" key="GridCell.Tab.0.left" timestamp="1586596856848">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="245" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586570331555" />
-    <state width="1236" height="245" key="GridCell.Tab.0.right" timestamp="1586570331556">
+    <state width="1236" height="2" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586596856848" />
+    <state width="1236" height="2" key="GridCell.Tab.0.right" timestamp="1586596856849">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="245" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586570331556" />
-    <state width="1222" height="242" key="GridCell.Tab.1.bottom" timestamp="1586535914829">
+    <state width="1236" height="2" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586596856849" />
+    <state width="1236" height="2" key="GridCell.Tab.1.bottom" timestamp="1586579051740">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="242" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586535914829" />
-    <state width="1222" height="242" key="GridCell.Tab.1.center" timestamp="1586535914829">
+    <state width="1236" height="2" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586579051740" />
+    <state width="1236" height="2" key="GridCell.Tab.1.center" timestamp="1586579051740">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="242" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1586535914829" />
-    <state width="1222" height="242" key="GridCell.Tab.1.left" timestamp="1586535914828">
+    <state width="1236" height="2" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1586579051740" />
+    <state width="1236" height="2" key="GridCell.Tab.1.left" timestamp="1586579051740">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="242" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1586535914828" />
-    <state width="1222" height="242" key="GridCell.Tab.1.right" timestamp="1586535914829">
+    <state width="1236" height="2" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1586579051740" />
+    <state width="1236" height="2" key="GridCell.Tab.1.right" timestamp="1586579051740">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1222" height="242" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1586535914829" />
+    <state width="1236" height="2" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1586579051740" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1586527445214">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1586527445214" />
-    <state x="325" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1586570299287">
+    <state x="325" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1586596800558">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="325" y="218" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1586570299287" />
+    <state x="325" y="218" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1586596800558" />
     <state x="0" y="0" width="629" height="720" key="find.popup" timestamp="1586526791375">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
