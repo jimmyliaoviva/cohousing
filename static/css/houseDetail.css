@@ -1,0 +1,91 @@
+.houseDetailPage {
+	display: table;
+	margin: 0 auto;
+	list-style: none;
+}
+.picMapBlock {
+    margin-top: 36px;
+    display: flex;
+    height: 360px;
+}
+.carousel, .slide {
+    height: 360px;
+    width: 360px;
+}
+.googleMap {
+    height: 360px;
+    width: 480px;
+}
+.houseContent {
+	height: 147px;
+	display: flex;
+	justify-content: space-between;
+}
+.houseContentLeft {
+	margin-top: 32px;
+}
+.firstLine, .secondLine {
+	display: flex;
+	justify-content: space-between;
+}
+.houseName {
+	font-size: 28px;
+	padding-bottom: 15px;
+}
+.houseRoad {
+	font-size: 18px;
+	height: 27px;
+	padding-right: 30px;
+}
+.updateTime {
+	font-size: 18px;
+	height: 27px;
+}
+.houseContentRight {
+	margin-top: 59px;
+}
+.housePrice {
+	font-size: 38px;
+}
+.housePriceUnit {
+	font-size: 18px;
+}
+.titleSection {
+	background-color: #F2D785;
+	width: 840px;
+	height: 56px;
+	display: flex;
+    align-items:center;
+}
+.titleContent {
+	font-size: 24px;
+	padding-left: 28px;
+}
+.houseStateTable {
+	font-size: 20px;
+	height: 207px;
+}
+.tableFirstLine {
+	padding-top: 26px;
+	padding-bottom: 0px;
+	height: 55px;
+}
+.tableSecondLine {
+	padding-top: 30px;
+	padding-bottom: 0px;
+	height: 59px;
+}
+.tableThirdLine {
+	padding-top: 30px;
+	padding-bottom: 34px;
+}
+td {
+	width: 280px;
+	padding-left: 28px;
+}
+tr {
+	vertical-align:text-top;
+}
+.houseStateTable {
+	width: 840px;
+}
