@@ -1,20 +1,48 @@
+.detailPage {
+	display: flex;
+	justify-content: space-around;
+}
+.leftSection {
+	float: left;
+	width: 500px;
+}
+.rightSection {
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+}
+.topButton {
+	width: 30px;
+	height: 30px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 10px #0000001A;
+	border: 3px solid #444059D9;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
 .houseDetailPage {
 	display: table;
 	margin: 0 auto;
+	padding: 0px;
 	list-style: none;
 }
 .picMapBlock {
-    margin-top: 36px;
-    display: flex;
-    height: 360px;
+	margin-top: 36px;
+	display: flex;
+	height: 360px;
 }
 .carousel, .slide {
-    height: 360px;
-    width: 360px;
+	height: 360px;
+	width: 360px;
 }
 .googleMap {
-    height: 360px;
-    width: 480px;
+	height: 360px;
+	width: 480px;
 }
 .houseContent {
 	height: 147px;
@@ -55,7 +83,7 @@
 	width: 840px;
 	height: 56px;
 	display: flex;
-    align-items:center;
+	align-items:center;
 }
 .titleContent {
 	font-size: 24px;
@@ -88,4 +116,25 @@ tr {
 }
 .houseStateTable {
 	width: 840px;
+}
+.hashtag {
+	padding: 6px 20px;
+	margin-left: 10px; 
+	height: 42px;
+	background: #F2F2F2;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.apply {
+	width: 205px;
+	height: 76px;
+	background: #F2A057;
+	box-shadow: 0px 3px 6px #F2A057;
+	border-radius: 5px;
+	font-size: 28px;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 43px;
 }
