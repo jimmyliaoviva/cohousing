@@ -19,5 +19,6 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
-    path('redirect',views.redirect,name="redirect"),
+    path('redirect', views.redirect, name = "redirect"),
+    path('dashboard', views.dashboard, name = "dashboard"),
 ]

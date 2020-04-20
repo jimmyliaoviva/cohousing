@@ -1,0 +1,82 @@
+html{
+    background-color: #E4E4E4;
+}
+body{
+    background-color: #E4E4E4;
+    /*background-color: #E4E4E4;*/
+    padding: 50px 102px ;
+}
+.container{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    margin: 0px;
+}
+.area {
+    background-color: #FFFFFF;
+    padding: 0px;
+    max-width: 684px;
+    height: 270px;
+}
+.percent{
+    background-color: #FFFFFF;
+    padding: 0px;
+    max-width: 360px;
+    height: 270px;
+}
+.middle{
+    height: 32px;
+}
+.bottom{
+    margin: 0;
+}
+.bar{
+    background-color: #FFFFFF;
+    padding: 0px;
+    height: 398px;
+    max-width: 530px;
+}
+.map{
+    background-color: #FFFFFF;
+    padding: 0px;
+    height: 398px;
+    max-width: 514px;
+}
+.col{
+    border-radius: 10px;
+}
+
+.singleOld-wrapper{
+    position: relative;
+    height: 270px;
+    width: 270px;
+    z-index: auto;
+}
+.rentPercent-wrapper{
+    position: relative;
+    height: 270px;
+    width: 270px;
+    z-index: auto;
+}
+.barChart-wrapper{
+    position: relative;
+    margin-top:50px ;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.word{
+    /*padding: 28px;*/
+    margin:0;
+}
+.areaRow{
+    padding: 28px;
+     margin:0;
+}
+label{
+    padding: 0;
+    margin: 0;
+}
+select{
+     border: none;
+}

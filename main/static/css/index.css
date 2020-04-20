@@ -1,0 +1,43 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url("/static/img/wheelchair-1629490_1280.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bg {
+    position: fixed;
+    z-index: -999;
+    height: 100%;
+    width: 100%;
+    background-color: #44405980;
+}
+
+img {
+    height: 800px;
+    width:1280px;
+    position: relative;
+    z-index:-999;
+}
+
+.containter .word{
+    padding-top: 10%;
+    padding-left: 17%;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+}
+h4{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.index-btn{
+    padding-top: 5%;
+    padding-left: 17%;
+    /*padding-bottom: 5%;*/
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
