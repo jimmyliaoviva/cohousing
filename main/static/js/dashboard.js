@@ -69,5 +69,6 @@ var barChart = new Chart(barChartCtx, {
     },
     // Configuration options go here
     options: {
+        legend:false,   
     }
 });

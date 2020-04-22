@@ -16,7 +16,7 @@
         <div class="top row justify-content-between">
             <div class="col area">
                 <div class="row m-0 areaRow justify-content-between">
-                    <h3 class="word col-6" >
+                    <h3 class="word col-5" >
                         您現在查看行政區
                     </h3>
                     <label class="col">
@@ -30,25 +30,57 @@
                         </select>
                     </label>
                 </div>
+                <div class="row m-0 areaData justify-content-between">
+                    <div class="col-4 successData numberData text-center">
+                        933
+                    </div>
+                    <div class=" col separate align-self-center">
+                    </div>
+                    <div class="col waitingData numberData text-center">
+                        1,798
+                    </div>
+                    <div class="col separate align-self-center">
+                    </div>
+                    <div class="col applyingData numberData text-center">
+                        2,000
+                    </div>
+                </div>
+                <div class="row m-0 areaTitle justify-content-between">
+                    <div class="col successTitle text-center title">
+                        <h5>成功媒合件數</h5>
+                    </div>
+                    <div class="col waitingTitle text-center title">
+                        <h5>位長者等待中</h5>
+                    </div>
+                    <div class="col applyingTitle text-center title">
+                        <h5>位租屋族申請中</h5>
+                    </div>
+
+                </div>
             </div>
             <div class="col percent">
-                <div class="word">
-                    獨居長者、租屋者占比
+                <div class="subtitle-wrapper">
+                    <div class="word">
+                        獨居長者、租屋者占比
+                    </div>
                 </div>
-                <div class="singleOld-wrapper ">
-                    <canvas id="singleOld" class=""></canvas>
+                <div class="donutChart">
+                    <div class="singleOld-wrapper">
+                        <canvas id="singleOld" class=""></canvas>
+                    </div>
+                    <div class="rentPercent-wrapper ">
+                        <canvas id="rentPercent" class=""></canvas>
+                    </div>
                 </div>
-                <div class="rentPercent-wrapper">
-                    <canvas id="rentPercent" class=""></canvas>
-                </div>
-
             </div>
         </div>
         <div class="row middle">
         </div>
         <div class="bottom row justify-content-between">
             <div class="col bar">
-                <h3 class="word">獨居長者、租屋族人數</h3>
+                <div class="subtitle-wrapper">
+                    <h3 class="word">獨居長者、租屋族人數</h3>
+                </div>
                 <div class="barChart-wrapper">
                     <canvas id="barChart"></canvas>
                 </div>
