@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c8917a-99e7-42b2-bcad-554b8a8fbae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/USER.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/faq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/js/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,7 @@
       <workItem from="1587475455917" duration="1505000" />
       <workItem from="1587477009163" duration="3787000" />
       <workItem from="1587542712183" duration="1149000" />
-      <workItem from="1587545277227" duration="235000" />
+      <workItem from="1587545277227" duration="1533000" />
     </task>
     <servers />
   </component>
