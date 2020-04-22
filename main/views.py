@@ -6,3 +6,12 @@ def index(request):
 
 def redirect(request):
     return  render(request,'redirectPage.html')
+
+def dashboard(request):
+    return  render(request,'dashboard.html')
+
+def faq(request):
+    return render(request,'faq.html')
+
+def about(request):
+    return render(request,'about.html')
