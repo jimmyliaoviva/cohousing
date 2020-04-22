@@ -12,3 +12,15 @@ def redirect(request):
 
 def search(request):
     return render(request, 'search.html')
+    return  render(request,'redirectPage.html')
+
+def houseDetail(request):
+    return  render(request,'houseDetail.html')
+def dashboard(request):
+    return  render(request,'dashboard.html')
+
+def faq(request):
+    return render(request,'faq.html')
+
+def about(request):
+    return render(request,'about.html')

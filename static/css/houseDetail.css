@@ -1,0 +1,154 @@
+.detailPage {
+	display: flex;
+	justify-content: space-around;
+}
+.leftSection {
+	float: left;
+	width: 500px;
+}
+.rightSection {
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+}
+.topButton {
+	width: 30px;
+	height: 30px;
+	box-shadow: 0px 3px 10px #0000001A;
+	border: 3px solid #444059D9;
+	border-radius: 50%;
+	text-align: center;
+    font-size: 20px;
+    color: #5F5C71;
+}
+.houseDetailPage {
+	display: table;
+	margin: 0 auto;
+	padding: 0px;
+	list-style: none;
+}
+.picMapBlock {
+	margin-top: 36px;
+	display: flex;
+	height: 360px;
+}
+.picBlock {
+	width: 360px;
+}
+.carousel, .slide {
+	height: 270px;
+	width: 360px;
+}
+.picSize {
+	height: 90px;
+	width: 120px;
+	flex-wrap: wrap;
+}
+.otherPic {
+	display: flex;
+	flex-direction: row;
+}
+.googleMap {
+	height: 360px;
+	width: 480px;
+}
+.houseContent {
+	height: 147px;
+	display: flex;
+	justify-content: space-between;
+}
+.houseContentLeft {
+	margin-top: 32px;
+}
+.firstLine, .secondLine {
+	display: flex;
+	justify-content: space-between;
+	align-items:baseline;
+}
+.houseName {
+	font-size: 28px;
+	padding-bottom: 15px;
+}
+.likePic {
+	font-size: 20px;
+}
+.houseRoad {
+	font-size: 18px;
+	height: 27px;
+	padding-right: 30px;
+}
+.updateTime {
+	font-size: 18px;
+	height: 27px;
+}
+.houseContentRight {
+	margin-top: 59px;
+}
+.housePrice {
+	font-size: 38px;
+}
+.housePriceUnit {
+	font-size: 18px;
+}
+.titleSection {
+	background-color: #F2D785;
+	width: 840px;
+	height: 56px;
+	display: flex;
+	align-items:center;
+}
+.titleContent {
+	font-size: 24px;
+	padding-left: 28px;
+}
+.houseStateTable {
+	font-size: 20px;
+	height: 207px;
+}
+.tableFirstLine {
+	padding-top: 26px;
+	padding-bottom: 0px;
+	height: 55px;
+}
+.tableSecondLine {
+	padding-top: 30px;
+	padding-bottom: 0px;
+	height: 59px;
+}
+.tableThirdLine {
+	padding-top: 30px;
+	padding-bottom: 34px;
+}
+td {
+	width: 280px;
+	padding-left: 28px;
+}
+tr {
+	vertical-align:text-top;
+}
+.houseStateTable {
+	width: 840px;
+}
+.hashtag {
+	padding: 6px 20px;
+	margin-left: 10px; 
+	height: 42px;
+	background: #F2F2F2;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.apply {
+	width: 205px;
+	height: 76px;
+	background: #F2A057;
+	box-shadow: 0px 3px 6px #F2A057;
+	border-radius: 5px;
+	font-size: 28px;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 43px;
+}
