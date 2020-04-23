@@ -12,7 +12,6 @@ def redirect(request):
 
 def search(request):
     return render(request, 'search.html')
-    return  render(request,'redirectPage.html')
 
 def houseDetail(request):
     return  render(request,'houseDetail.html')
