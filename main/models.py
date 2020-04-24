@@ -14,6 +14,23 @@ class house(models.Model):
     hMoney = models.PositiveIntegerField(default="")
     hAge = models.PositiveIntegerField(default="")
 
-
 def __str__(self):
     return self.hName
+
+class old_distribute_sm(models.Model):
+    COUNTY_ID = models.PositiveIntegerField()
+    COUNTY = models.CharField(max_length=5)
+    TOWN_ID = models.PositiveIntegerField()
+    TOWN = models.CharField(max_length=5)
+    FLD01 = models.PositiveIntegerField()
+    FLD02 = models.FloatField()
+    FLD03 = models.PositiveIntegerField()
+    FLD04 = models.PositiveIntegerField()
+    FLD05 = models.PositiveIntegerField()
+    FLD06 = models.PositiveIntegerField()
+    INFO_TIME = models.CharField(max_length=5)
+
+
+
+
+
