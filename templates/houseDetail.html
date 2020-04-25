@@ -3,7 +3,6 @@
 
 {% block script %}
 	<script src="/static/js/houseDetail.js"> </script>
-	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/static/css/houseDetail.css">
 	<link rel="stylesheet" href="/static/font-awesome/css/all.css">
 {% endblock %}
@@ -60,8 +59,12 @@
 				<div class="houseContentLeft">
 					<div class="firstLine">
 						<span class="houseName">近中正紀念堂舒適套房</span>
-						
-						<i class="far fa-heart likePic"></i>
+						<button id="unlikeBtn" class="likePic">
+							<i class="far fa-heart"></i>
+						</button>
+						<button id="likeBtn" class="likePic">
+							<i class="fas fa-heart"></i>
+						</button>
 					</div>
 					<div class="secondLine">
 						<span class="houseRoad">台北市中正區中山南路</span>
@@ -117,11 +120,15 @@
 					</tr>
 				</table>
 			</li>
-			<li class="apply">立即申請</li>
+			<li>
+				<button class="apply">立即申請</button>
+			</li>
 		</ul>
 	</div>
 	<div class="rightSection">
-		<i class="fas fa-caret-up topButton"></i>
+		<button id="topBtn" class="topButtonPositon">
+				<i class="fas fa-caret-up topButton"></i>
+		</button>
 	</div>
 </div>
 {% endblock %}
