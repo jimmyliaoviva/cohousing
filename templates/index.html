@@ -1,17 +1,67 @@
 {% extends 'master.html' %}
+
+{% block script %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{%  static "css/index.css" %}">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+{% endblock %}
+
 {% block title %}家有一寶{% endblock %}
-{% block content %}
-    {#    <a href=" {% url 'redirect' %}">redirect</a>#}
 
 
-    <div class="bg" style="position: fixed;z-index: -999;height: 100%;width: 100%;">
-        <img src= "https://www.itseed.tw/images/index/banner2020.png" style="height: 100%; width:100%; opacity: 0.3; position: relative; z-index:-999"  alt="">
+{% block navbar %}
+    {#    這個是背景圖#}
+    <div class="bg" style="">
+        {#        <img src= "{% static "img/wheelchair-1629490_1280.png" %}" style=""  alt="">#}
     </div>
-    <div style="height: 100%; width:100%;">
-        <div style="position: relative; z-index: 1; text-align:center;height:150px; line-height:550px   ;" >
-            <button type="button" class="btn btn-primary btn-lg">Large button</button>
-            <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item mr-4 mt-2">
+                    <a class="navbar-brand" href="{% url 'faq' %}"><h4>常見問答</h4></a>
+                </li>
+                <li class="nav-item mr-4 mt-2">
+                    <a class="navbar-brand" href="{% url 'about' %}"><h4>關於我們</h4></a>
+                </li>
+                <li class="nav-item mr-4 mt-2">
+                    <a class="navbar-brand" href="#"><h4>政府媒合</h4></a>
+                </li>
+                <li class="nav-item mr-5 mt-2">
+                    {% if request.user.is_authenticated %}
+                    <a class="navbar-brand " href="{% url 'logout' %}" tabindex="-1" aria-disabled="true"><h4>登出</h4></a>
+                    {% else %}
+                    <a class="navbar-brand " href="{% url 'login' %}" tabindex="-1" aria-disabled="true"><h4>登入</h4></a>
+                    {% endif %}
+                </li>
+            </ul >
+        </div>
+    </nav>
+{% endblock %}
+
+{% block content %}
+    <div class="containter" >
+        <div class="word">
+            <h2 class="display-4">青銀共居</h2>
+            <h3>我有房，你有故事嗎？</h3>
+        </div>
+        <div>
+            <div class="index-btn" >
+                <div class="row mb-5 ml-0 mr-0">
+                    <div class="col-sm-2">
+                        <button type="button" class="btn btn-warning btn-lg btn-block">青年找房</button>
+                    </div>
+                </div>
+                <div class="row m-auto">
+                    <div class="col-sm-2">
+                        <button type="button" class="btn btn-outline-warning btn-lg btn-block">長者登錄</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
 {% endblock %}

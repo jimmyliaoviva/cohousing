@@ -1,19 +1,21 @@
-.house1 {
-    padding-top: 200px;
+.house {
+    padding-top: 5%;
     display: flex;
     justify-content: flex-start;
     position: relative;
 }
 
-.house1pic {
-    margin-left: 220px;
+
+.housepic {
+    padding-left:20% ;
     weight: 240px;
     height: 180px;
 }
 
+
 .htext {
-    margin-left: 30px;
-    margin-right: 140px;
+    margin-left: 5%;
+    margin-right: 10%;
     flex-direction: column;
     justify-content: space-around;
     font-family: Noto Sans CJK TC;
@@ -29,14 +31,15 @@
 .com {
     display: flex;
     flex-direction: row;
+
 }
 
 .ping {
-    margin-left: 16px;
+    margin-left: 10%;
 }
 
 .floor {
-    margin-left: 16px;
+    margin-left: 10%;
 }
 
 .number {
@@ -44,7 +47,7 @@
     color: #F2A057;
 }
 
-.button1 {
+.button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
