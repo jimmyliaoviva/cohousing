@@ -74,6 +74,7 @@
 	justify-content: space-between;
 }
 .houseContentLeft {
+	width: 550px;
 	margin-top: 32px;
 }
 .firstLine, .secondLine {
@@ -102,6 +103,12 @@
 .houseRoad {
 	font-size: 18px;
 	height: 27px;
+	width: 400px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
 	padding-right: 30px;
 }
 .updateTime {
