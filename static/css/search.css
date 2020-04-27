@@ -1,26 +1,95 @@
+/*.house {*/
+/*    padding-top: 5%;*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    position: relative;*/
+/*}*/
+
+
+/*.housepic {*/
+/*    padding-left:20% ;*/
+/*    height: 180px;*/
+/*}*/
+
+
+/*.htext {*/
+/*    padding-left: 5%;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-around;*/
+/*    font-family: Noto Sans CJK TC;*/
+/*    color: #444059;*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.name {*/
+/*    font-weight: bold;*/
+/*    font-size: x-large;*/
+/*}*/
+
+/*.com {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.ping {*/
+/*    margin-left: 10%;*/
+/*}*/
+
+/*.floor {*/
+/*    margin-left: 10%;*/
+/*}*/
+
+/*.number {*/
+/*    font-size: xx-large;*/
+/*    color: #F2A057;*/
+/*}*/
+
+/*.button {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    align-items: flex-end;*/
+
+/*}*/
+
+/*.heart {*/
+/*    width: 20px;*/
+/*}*/
+
+/*.info {*/
+/*    border: 0;*/
+/*    border: 3px solid #F2A057;*/
+/*    width: 130px;*/
+/*    height: 44px;*/
+/*    background-color: white;*/
+/*    border-radius: 10px;*/
+/*    color: #F2A057;*/
+/*}*/
 .house {
     padding-top: 5%;
     display: flex;
     justify-content: flex-start;
-    position: relative;
+
 }
 
 
 .housepic {
     padding-left:20% ;
-    weight: 240px;
     height: 180px;
 }
 
 
 .htext {
-    margin-left: 5%;
-    margin-right: 10%;
+    padding-left: 3%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: Noto Sans CJK TC;
     color: #444059;
     opacity: 1;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
 }
 
 .name {
@@ -31,15 +100,14 @@
 .com {
     display: flex;
     flex-direction: row;
-
 }
 
 .ping {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .floor {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .number {
@@ -52,7 +120,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 15px;
+
 }
 
 .heart {
@@ -68,4 +136,5 @@
     border-radius: 10px;
     color: #F2A057;
 }
+
 
