@@ -8,26 +8,31 @@
     <link rel="stylesheet" href="/static/css/search.css">
 {% endblock %}
 {% block content %}
+
     <div class=search>
-        <div class="house1">
-            <img class="house1pic" src="/static/img/house1.png" alt="">
+        {% for house in houses %}
+        <div class="house">
+            <img class="housepic" src="/media/{{ house.hPic }}"></img>
             <div class="htext">
-                <p class="name">近中正紀念堂舒適套房</p>
-                <p class="address">台北市中政區中山南路...</p>
+                <p class="name">{{ house.hName }}</p>
+                <p class="address">{{ house.hAddress }}</p>
                 <p class="com">
-                    <span class="class">獨立套房</span>
-                    <span class="ping">8坪</span>
-                    <span class="floor">樓層：4/5</span>
+                    <span class="class">{{ house.hClass }}</span>
+                    <span class="ping">{{ house.hPing }} 坪</span>
+                    <span class="floor">樓層：{{ house.hFloor }}/{{ house.hFloorAll }}</span>
                 </p>
                 <p class="money">
-                    <span class="number">3,500</span>
+                    <span class="number">{{ house.hMoney }}</span>
                     <span class="unit">元/月</span>
                 </p>
+
             </div>
-            <div class="button1">
+            <div class="button">
                 <img class="heart" src="/static/img/heart.png" alt="">
-                <button class="info">詳細屋況</button>
+                <button class="info" onclick="javascript:location.href='/houseDetail/{{ house.id }}'">詳細屋況</button>
             </div>
         </div>
+        {% endfor %}
     </div>
+
 {% endblock %}

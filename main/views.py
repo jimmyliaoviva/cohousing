@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from main.models import house
 
+
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
@@ -11,17 +12,22 @@ def redirect(request):
 
 
 def search(request):
-    return render(request, 'search.html')
+    houses = house.objects.all()
+    return render(request, 'search.html', locals())
+
 
 def houseDetail(request, id):
-    item = house.objects.get(id = id)
-    return  render(request,'houseDetail.html', locals())
+    item = house.objects.get(id=id)
+    return render(request, 'houseDetail.html', locals())
+
 
 def dashboard(request):
-    return  render(request,'dashboard.html')
+    return render(request, 'dashboard.html')
+
 
 def faq(request):
-    return render(request,'faq.html')
+    return render(request, 'faq.html')
+
 
 def about(request):
-    return render(request,'about.html')
+    return render(request, 'about.html')
