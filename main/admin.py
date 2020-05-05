@@ -5,7 +5,7 @@ from main.models import old_distribute_sm
 # Register your models here.
 
 class houseAdmin(admin.ModelAdmin):
-    list_display = ('id', 'hName', 'hAddress', 'hClass', 'hType', 'hPing', 'hFloor', 'hFloorAll', 'hEle', 'hMoney')
+    list_display = ('id', 'hName', 'hAddress', 'hClass', 'hType',  'hFloor', 'hFloorAll', 'hEle', 'hMoney')
     list_filter = ('hName', 'hAddress', 'hClass', 'hType', 'hPing', 'hFloor', 'hFloorAll', 'hEle', 'hMoney')
     search_fields = ('hMoney',)
     ordering = ('id',)

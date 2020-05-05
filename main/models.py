@@ -13,6 +13,7 @@ class house(models.Model):
     hEle = models.BooleanField(default=True)
     hMoney = models.PositiveIntegerField(default="")
     hAge = models.PositiveIntegerField(default="")
+    hPic = models.ImageField(upload_to='media')
 
 def __str__(self):
     return self.hName
