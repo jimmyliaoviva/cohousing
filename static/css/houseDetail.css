@@ -83,7 +83,13 @@
 }
 .houseName {
 	font-size: 28px;
-	padding-bottom: 15px;
+	width: 350px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	padding-right: 30px;
 }
 .likePic {
 	font-size: 22px;
@@ -101,7 +107,13 @@
 }
 .houseRoad {
 	font-size: 18px;
-	height: 27px;
+	padding-top: 15px;
+	width: 350px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
 	padding-right: 30px;
 }
 .updateTime {
