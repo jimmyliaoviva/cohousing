@@ -31,6 +31,13 @@ class old_distribute_sm(models.Model):
     FLD06 = models.PositiveIntegerField()
     INFO_TIME = models.CharField(max_length=5)
 
+class houseHolder(models.Model):
+    pic = models.ImageField(upload_to='media')
+    name = models.CharField(max_length=100)
+    status = models.CharField(max_length=100)
+    introduction = models.CharField(max_length=100)
+    interesting = models.CharField(max_length=100)
+    slogan = models.CharField(max_length=100)
 
 
 
