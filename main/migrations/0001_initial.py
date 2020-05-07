@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -45,4 +44,16 @@ class Migration(migrations.Migration):
                 ('INFO_TIME', models.CharField(max_length=5)),
             ],
         ),
+        migrations.CreateModel(
+            name='houseHolder',
+            fields=[
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('pic', models.ImageField(upload_to='img')),
+                ('name', models.CharField(max_length=100)),
+                ('status', models.CharField(max_length=100)),
+                ('introduction', models.CharField(max_length=100)),
+                ('interesting', models.CharField(max_length=100)),
+                ('slogan', models.CharField(max_length=100)),
+            ]
+        )
     ]
