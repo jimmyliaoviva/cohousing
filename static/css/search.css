@@ -53,10 +53,24 @@
 
 }
 
-.heart {
-    width: 20px;
+.unlike {
+	font-size: 20px;
+	border: 0;
+	padding: 0;
+    outline: none!important;
+    background: transparent;
 }
-
+.unlike:hover {
+	color: #EA4335;
+	opacity: 70%;
+}
+.like {
+    font-size: 20px;
+	border: 0;
+	padding: 0;
+    color: red;
+    background: transparent;
+}
 .info {
     border: 0;
     border: 3px solid #F2A057;
