@@ -158,12 +158,35 @@
 	padding-top: 30px;
 	padding-bottom: 34px;
 }
+.middleOldMan {
+	font-size: 20px;
+	height: 308px;
+	display: flex;
+}
+.oldManPic {
+	border-radius: 5px;
+	width: 250px;
+	height: 250px;
+}
+.oldManPicDiv {
+	padding-top: 26px;
+	padding-left: 28px;
+}
+.oldManRight {
+	padding-left: 30px;
+}
+.oldManName {
+	padding-top: 26px;
+}
+.oldManIntro {
+	padding-top: 30px;
+}
 td {
 	width: 280px;
 	padding-left: 28px;
 }
 tr {
-	vertical-align:text-top;
+	vertical-align: text-top;
 }
 .houseStateTable {
 	width: 840px;
