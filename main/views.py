@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from main.models import house
+from main.models import house, houseHolder
 
 
 # Create your views here.
@@ -18,6 +18,7 @@ def search(request):
 
 def houseDetail(request, id):
     item = house.objects.get(id=id)
+    holder = houseHolder.objects.get(id=id)
     return render(request, 'houseDetail.html', locals())
 
 
