@@ -53,23 +53,26 @@
 
 }
 
-.unlike {
-	font-size: 20px;
-	border: 0;
-	padding: 0;
-    outline: none!important;
-    background: transparent;
-}
-.unlike:hover {
-	color: #EA4335;
-	opacity: 70%;
-}
-.like {
-    font-size: 20px;
-	border: 0;
-	padding: 0;
-    color: red;
-    background: transparent;
+/*.unlike {*/
+/*	font-size: 20px;*/
+/*	border: 0;*/
+/*	padding: 0;*/
+/*    outline: none!important;*/
+/*    background: transparent;*/
+/*}*/
+/*.unlike:hover {*/
+/*	color: #EA4335;*/
+/*	opacity: 70%;*/
+/*}*/
+/*.like {*/
+/*    font-size: 20px;*/
+/*	border: 0;*/
+/*	padding: 0;*/
+/*    color: red;*/
+/*    background: transparent;*/
+/*}*/
+.heart{
+    width: 20px;
 }
 .info {
     border: 0;
