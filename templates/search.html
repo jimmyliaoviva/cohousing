@@ -6,6 +6,7 @@
     <script src="/static/js/search.js"></script>
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/search.css">
+    <link rel="stylesheet" href="/static/font-awesome/css/all.css">
 {% endblock %}
 {% block content %}
 
@@ -28,11 +29,15 @@
 
             </div>
             <div class="button">
-                <img class="heart" src="/static/img/heart.png" alt="">
+                <button id="unlike" class="unlike">
+                    <i class="far fa-heart"></i>
+                </button>
+                <button id="like" class="like">
+                    <i class="fas fa-heart"></i>
+                </button>
                 <button class="info" onclick="javascript:location.href='/houseDetail/{{ house.id }}'">詳細屋況</button>
             </div>
         </div>
         {% endfor %}
     </div>
-
 {% endblock %}
