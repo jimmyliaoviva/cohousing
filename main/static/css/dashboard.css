@@ -121,3 +121,19 @@ select{
     font-size: 28px;
     background-color: #FFFFFF;
 }
+.singleOldPercent{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 47px;
+    font-size: 30px;
+    font-weight: bold;
+    color:orange;
+}
+.singleRentPercent{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 47px;
+    font-size: 30px;
+    font-weight: bold;
+    color:orange;
+}
